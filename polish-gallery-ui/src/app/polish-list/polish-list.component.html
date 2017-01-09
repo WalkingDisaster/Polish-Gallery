@@ -1,0 +1,22 @@
+<md-card *ngFor="let polish of polishes" class="polish-card">
+  <md-card-header>
+    <div class="polish-header-image" md-card-avatar></div>
+    <md-card-title>{{polish.name}} ({{polish.brand}})</md-card-title>
+    <md-card-subtitle>{{polish.type}}</md-card-subtitle>
+  </md-card-header>
+  <img src="{{polish.headlineImageUrl}}" class="polish-image" md-card-image />
+  <md-card-content>
+    <div class="polish-manufacturer">
+      <span class="polish-brand">{{polish.brand}}</span>
+      <span class="polish-line">{{polish.line}}</span>
+      <span class="polish-sku">{{polish.sku}}</span>
+    </div>
+    <app-tags [name]='"Colors"' [tags]='polish.colorTags'></app-tags>
+    <app-tags [name]='"Mood"' [tags]='polish.moodTags'></app-tags>
+    <app-tags [name]='"Pigments"' [tags]='polish.pigmentTags'></app-tags>
+    <app-tags [name]='"Finishes"' [tags]='polish.finishes'></app-tags>
+  </md-card-content>
+  <md-card-actions>
+    <button (click)="goToManufacturer(polish)" md-raised-button>Manufacturer Page</button>
+  </md-card-actions>
+</md-card>

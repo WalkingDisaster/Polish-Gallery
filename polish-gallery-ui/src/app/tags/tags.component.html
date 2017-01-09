@@ -1,0 +1,8 @@
+<div class="tags">
+  <span class="name">{{name}}: </span>
+  <ul>
+    <li *ngFor="let tag of tags">
+      <a [style.background-color]="tag.color" href="{{tag.url}}">{{tag.text}}</a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,33 @@
+.polish-card {
+    width: 400px;
+    flex-wrap: wrap;
+    clear: none;
+    overflow-wrap: normal;
+}
+
+.polish-image {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.polish-header-image {
+  background-image: url('assets/img/card-headers/opi_logo.jpg');
+  background-size: cover;
+}
+
+.polish-manufacturer span {
+  clear: right;
+  display: block;
+}
+
+.tags ul {
+  display: inline;
+  padding: 0px 0px 0px 0px;
+}
+.tags ul li {
+  display: inline;
+  padding: 2px 2px 2px 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: pink;
+}

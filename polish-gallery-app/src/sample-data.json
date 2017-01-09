@@ -1,0 +1,122 @@
+[
+    {
+        "class": "Polish",
+        "type": "Gel Polish",
+        "brand": "OPI",
+        "name": "Fire Escape Rendezvous",
+        "line": "Breakfast at Tiffany's Gelcolor",
+        "sku": "HP H05",
+        "id": "00025",
+        "colorTags": [
+            {
+                "text": "Pink",
+                "color": "pink",
+                "url": "tags?color=pink"
+            }
+        ],
+        "moodTags": [
+            {
+                "text": "Christmas",
+                "color": "blue",
+                "url": "tags?mood=christmas"
+            },
+            {
+                "text": "Holidays",
+                "color": "blue",
+                "url": "tags?mood=holidays"
+            },
+            {
+                "text": "Festive",
+                "color": "blue",
+                "url": "tags?mood=festive"
+            }
+        ],
+        "pigmentTags": [
+            {
+                "text": "Shimmer",
+                "color": "steelblue",
+                "url": "tags?pigment=shimmer"
+            },
+            {
+                "text": "Sparkle",
+                "color": "steelblue",
+                "url": "tags?pigment=sparkle"
+            },
+            {
+                "text": "Glitter",
+                "color": "steelblue",
+                "url": "tags?pigment=glitter"
+            }
+        ],
+        "finishes": [
+            {
+                "text": "Matte",
+                "color": "darkslategray",
+                "url": "tags?finish=matte"
+            }
+        ],
+        "imageUrls": [
+            "https://www.opi.com/sites/default/files/styles/swatchsidebar__h1800_/public/2016/09/30/HRH09_Swatch_1.png?itok=jx9H25zW",
+            "https://www.opi.com/sites/default/files/styles/ipp_bottle_mobile__115x280_/public/2016/09/14/HPH09_G_FireEscapeRendezvous.png?itok=O4wT4PL9"
+        ],
+        "headlineImageUrl": "https://www.opi.com/sites/default/files/styles/swatchsidebar__h1800_/public/2016/09/30/HRH09_Swatch_1.png?itok=jx9H25zW",
+        "manufacturerPageUrl": "https://www.opi.com/color/fire-escape-rendexvous"
+    },
+    {
+        "class": "Polish",
+        "type": "Gel Polish",
+        "brand": "OPI",
+        "name": "Got the Mean Reds",
+        "line": "Breakfast at Tiffany's Gelcolor",
+        "sku": "HP H08",
+        "id": "00026",
+        "colorTags": [
+            {
+                "text": "Red",
+                "color": "red",
+                "url": "tags?color=red"
+            },
+            {
+                "text": "Ruby",
+                "color": "#e0115f",
+                "url": "tags?color=ruby"
+            }
+        ],
+        "moodTags": [
+            {
+                "text": "Christmas",
+                "color": "darkslateblue",
+                "url": "tags?mood=christmas"
+            },
+            {
+                "text": "Bold",
+                "color": "darkslateblue",
+                "url": "tags?mood=bold"
+            },
+            {
+                "text": "Professional",
+                "color": "darkslateblue",
+                "url": "tags?mood=professional"
+            }
+        ],
+        "pigmentTags": [],
+        "finishes": [
+            {
+                "text": "Creme",
+                "color": "darkslategray",
+                "url": "tags?finish=creme"
+            },
+            {
+                "text": "Gloss",
+                "color": "darkslategray",
+                "url": "tags?finish=gloss"
+            }
+        ],
+        "imageUrls": [
+            "https://www.opi.com/sites/default/files/styles/ipp_-_bottle_image_height_only__560h__/public/2016/09/14/HPH08_G_GotTheMeanReds.png?itok=w0ENHnHz",
+            "https://www.opi.com/sites/default/files/styles/ipp_-_bottle_image_height_only__560h__/public/2016/09/14/HPH08_G_GotTheMeanReds.png?itok=w0ENHnHz"
+        ],
+        "headlineImageUrl": "https://www.opi.com/sites/default/files/styles/ipp_-_bottle_image_height_only__560h__/public/2016/09/14/HPH08_G_GotTheMeanReds.png?itok=w0ENHnHz",
+        "manufacturerPageUrl": "https://www.opi.com/color/got-mean-reds-1"
+    }
+]

@@ -1,0 +1,21 @@
+div.tags {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+ul {
+    display: inline;
+    padding: 0px 0px 0px 0px;
+}
+li {
+    display: inline;
+    padding: 4px 4px 4px 4px;
+    margin: 4px 4px 4px 4px;
+}
+
+a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    display: inline-block;
+}

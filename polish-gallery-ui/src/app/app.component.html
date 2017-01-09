@@ -1,0 +1,10 @@
+<h1>
+  {{title}} <span class="environment">({{env}})</span>
+</h1>
+<div>
+  <button routerLink="/add" md-mini-fab><md-icon>add_circle</md-icon></button>
+  <button (click)="onInitializeDatabase()" md-mini-fab><md-icon>build</md-icon></button>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>

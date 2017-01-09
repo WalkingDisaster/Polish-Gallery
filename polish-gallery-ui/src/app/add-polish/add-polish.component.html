@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit()" #addPolishForm="ngForm">
+  <md-input-container>
+    <input name="id" md-input placeholder="ID Number" [(ngModel)]="model.id" required />
+  </md-input-container>
+  <md-input-container>
+    <input name="name" md-input placeholder="Color Name" [(ngModel)]="model.name" required />
+  </md-input-container>
+  <div>
+    <img-cropper [image]="model.data" [settings]="cropperSettings" (onCrop)="cropped($event)"></img-cropper>
+    <span class="result" *ngIf="model.data.image" >
+      <img [src]="model.data.image" [width]="cropperSettings.croppedWidth" [height]="cropperSettings.croppedHeight">
+    </span>
+  </div>
+  <button md-fab type="submit" [disabled]="!addPolishForm.form.valid"><md-icon>done</md-icon></button>
+  <button md-fab type="cancel" [disabled]="!addPolishForm.form.dirty"><md-icon>cancel</md-icon></button>
+</form>
